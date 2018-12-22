@@ -1,4 +1,7 @@
-// A(B-C)
+/*
+    Выполнить операции (здесь A, B, C, D — квадратные матрицы порядка n). Действия с матрицами оформить в виде класса;
+    A(B-C).
+*/
 using System;
 namespace ex_class
 {
@@ -74,18 +77,18 @@ namespace ex_class
             Matrix ans2 = new Matrix();
             Matrix ans3 = new Matrix();
             a.inp();
-            Console.WriteLine("������� A: ");
+            Console.WriteLine("Ìàòðèöà A: ");
             a.outp();
             b.inp();
-            Console.WriteLine("������� B: ");
+            Console.WriteLine("Ìàòðèöà B: ");
             b.outp();
             c.inp();
-            Console.WriteLine("������� C: ");
+            Console.WriteLine("Ìàòðèöà C: ");
             c.outp();
-            Console.WriteLine("������� B-C: ");
+            Console.WriteLine("Ìàòðèöà B-C: ");
             ans2 = c.raznost(b);
             ans2.outp();
-            Console.WriteLine("������� A(B-C): ");
+            Console.WriteLine("Ìàòðèöà A(B-C): ");
             ans3 = a.mult(ans2);
             ans3.outp();
             Console.ReadKey();
