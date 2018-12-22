@@ -1,3 +1,5 @@
+// Составить список, в котором чередуются нули и единицы.
+
 open System
 [<EntryPoint>]
 let main argv = 
